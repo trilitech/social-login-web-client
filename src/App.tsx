@@ -12,8 +12,8 @@ enum ACTION_TYPES {
 const REDIRECT_DEEPLINK = 'unitydl001://';
 
 const DEFAULT_LOGIN_LAYOUT = {
-    loginOptions: [TypeOfLogin.Google, 'email' as TypeOfLogin, TypeOfLogin.Twitter],
-    wideButtons: [true, true, true]
+    loginOptions: [TypeOfLogin.Google, TypeOfLogin.Twitter, TypeOfLogin.Facebook, TypeOfLogin.Reddit, "email" as TypeOfLogin],
+    wideButtons: [true, true, true, true, true]
 };
 
 function getLoginLayout() {
